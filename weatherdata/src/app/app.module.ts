@@ -11,6 +11,7 @@ import {ReactiveFormsModule} from '@angular/forms';
 
 import { ZipcodeService } from './zipcode.service';
 import { ResultComponent } from './components/result/result.component';
+import { MadComponent } from './components/mad/mad.component';
 
 const routes: Routes = [
  {path: 'display', component: DisplayComponent},
@@ -26,6 +27,7 @@ const routes: Routes = [
     ListComponent,
     DisplayComponent,
     ResultComponent,
+    MadComponent,
     
   ],
   imports: [
