@@ -1,0 +1,27 @@
+
+<div>
+  <mat-card>
+    <br><br>
+    <mat-divider></mat-divider>
+    
+   
+    
+   <ul *ngIf="weatherdatas">
+    <p>Place : {{weatherdatas.place}}</p>
+    <p>Temperature : {{weatherdatas.temperature}} </p>
+    <p>Humidity : {{weatherdatas.humid}} </p>
+    <p>Description : {{weatherdatas.desc}} </p>
+ 
+    <p>Country : {{weatherdatas.ctry}} </p>
+ 
+  </ul>
+
+  <button mat-raised-button color="primary" routerLink="/list">Enter ZipCode </button>&nbsp;
+  <button mat-raised-button color="accent" routerLink="/display">DataBase Contents</button>&nbsp;
+     
+
+
+
+  </mat-card>
+
+</div>
